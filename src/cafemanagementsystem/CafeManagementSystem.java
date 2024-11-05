@@ -12,13 +12,13 @@ public class CafeManagementSystem extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        // Load the FXML file using a relative path
+        
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.setTitle("Cafe Management System"); // Optional: Set the window title
+        stage.setTitle("Cafe Management System"); 
         stage.show();
     }
 
